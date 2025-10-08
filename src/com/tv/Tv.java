@@ -80,7 +80,6 @@ public class Tv {
         }
     }
     public void bajarVolumen() {
-        System.out.println("");
         //Verificamos primero si la tv esta encendida o no para proceder a cambiar el volumen
         if(!isEncendido()) System.out.println("La tv esta apagada. Enciendela para cambiar el volumen.");
         else {
